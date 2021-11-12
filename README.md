@@ -14,6 +14,12 @@ Parrot OS 4.11.2
 
 ## Intalacion
 
+git clone https://github.com/Anonimo501/Smb_Nfs.git
 
+cd Smb_Nfs
+
+chmod +x smb_nfs_shares.sh
 
 ## Ejecucion
+
+./smb_nfs_shares.sh
