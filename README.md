@@ -6,7 +6,7 @@ Grupo en Telegram https://t.me/Pen7esting
 
 ## Smb_Nfs
 
-Script sencillo para enumerar shares conformado otros scripts conocidos como smbmap, smbcliet, nmap y enum4linux
+Script sencillo para enumerar shares, conformado otros scripts conocidos como smbmap, smbcliet, nmap y enum4linux
 
 ## Sistema Operativo
 
@@ -23,3 +23,7 @@ chmod +x smb_nfs_shares.sh
 ## Ejecucion
 
 ./smb_nfs_shares.sh
+
+# Referencias
+
+smbmap, smbcliet, nmap y enum4linux
