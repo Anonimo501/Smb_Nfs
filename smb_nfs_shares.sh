@@ -27,7 +27,7 @@ echo -e "\e[31m NFS     \e[0m"
 echo ""
 
 # Enumerar Shares con Nmap - NFS (Network File Share)
-nmap -p 111 --script=nfs-ls, nfs-statfs, nfs-showmount $ip
+nmap -p 111,2049 --script=nfs-ls, nfs-statfs, nfs-showmount $ip
 
 echo ""
 echo -e "\e[33m-----------------------------------------------------\e[0m"
